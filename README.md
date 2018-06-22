@@ -33,8 +33,6 @@ $ git init
 $ touch ./assets/js/credentials.js
 ```
 
-6. Delete or comment out any references to CSS or JS packages you are not using to cut down on load
-
 Note that this file is included in .gitignore and will not be pushed to Github 
 
 If you are using Firebase, include the following in the credentials.js file
@@ -52,6 +50,8 @@ var firebaseConfig = {
     messagingSenderId: ""
   };
 ```
+
+6. Delete or comment out any references to CSS or JS packages you are not using to cut down on load
 
 ## Contributing
 
